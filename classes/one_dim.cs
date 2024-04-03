@@ -28,12 +28,6 @@ namespace HW_4_1.classes
         // public override void Remove(T element)
         // {
         //     default_d1_length--;
-
-        //     int index = FindIndex(element);
-        //     if (index != -1)
-        //     {   
-        //         Array.Copy(array, index + 1, array, index, d1_length - index);
-        //     }
         // }
 
         public override int Length(Func<T, bool> condition)
